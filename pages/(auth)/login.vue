@@ -26,8 +26,8 @@ let connect = async () => {
 <template>
   <form @submit.prevent="connect">
     <h1>Login</h1>
-    <input type="text" placeholder="Username" v-model="loginForm.username" />
-    <input type="password" placeholder="Password" v-model="loginForm.password" />
+    <input type="text" placeholder="Username" v-model="form.username" />
+    <input type="password" placeholder="Password" v-model="form.password" />
     <button type="submit">Login</button>
   </form>
 </template>
