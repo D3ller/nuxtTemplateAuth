@@ -9,6 +9,7 @@ async function main() {
             email: 'admin@nuxt.com',
             username: 'Kora',
             password: '$2y$10$hXPea83sKsVsuf95mtEZZeIYtcFl1vLJ1BXVTEqcgKArf6/5.Zksm',
+            profilePic: 'https://placehold.jp/150x150.png',
             roles: {
                 create: {
                     name: 'ADMIN'

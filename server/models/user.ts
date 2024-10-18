@@ -16,6 +16,7 @@ export async function getUserByEmail(email: string) {
             email: true,
             username: true,
             password: true,
+            profilePic: true,
             roles: {
                 select: {
                     name: true
@@ -35,6 +36,7 @@ export async function getUserById(id: string) {
             email: true,
             username: true,
             password: true,
+            profilePic: true,
             roles: {
                 select: {
                     name: true
