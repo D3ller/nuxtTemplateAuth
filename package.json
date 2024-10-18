@@ -21,6 +21,8 @@
     "nuxt": "^3.12.4"
   },
   "dependencies": {
-    "oslo": "^1.2.1"
+    "@prisma/client": "^5.21.1",
+    "oslo": "^1.2.1",
+    "prisma": "^5.21.1"
   }
 }
