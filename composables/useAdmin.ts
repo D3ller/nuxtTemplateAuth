@@ -4,6 +4,6 @@ export const useAdmin = () => {
   return computed(() => {
     if (!authUser.value) return false;
 
-    return authUser.value.roles.includes("ADMIN");
+    return authUser.value.roles.find((b) => b.name === "ADMIN");
   });
 };
