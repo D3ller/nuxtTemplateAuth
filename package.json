@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-template-with-auth",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/fonts": "^0.10.0",
+    "@nuxt/image": "^1.8.1",
+    "@nuxt/ui": "^2.18.5",
+    "@nuxtjs/seo": "2.0.0-rc.23",
+    "nuxt": "^3.12.4"
+  },
+  "dependencies": {
+    "oslo": "^1.2.1"
+  }
+}
