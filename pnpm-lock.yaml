@@ -27,18 +27,9 @@ importers:
       '@nuxtjs/seo':
         specifier: 2.0.0-rc.23
         version: 2.0.0-rc.23(h3@1.13.0)(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0))(vue@3.5.12(typescript@5.6.3))
-      '@types/node':
-        specifier: ^22.7.6
-        version: 22.7.6
       nuxt:
         specifier: ^3.12.4
         version: 3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.6)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)(vite@5.4.9(@types/node@22.7.6)(terser@5.36.0))
-      ts-node:
-        specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.7.6)(typescript@5.6.3)
-      typescript:
-        specifier: ^5.6.3
-        version: 5.6.3
 
 packages:
 
@@ -4874,6 +4865,7 @@ snapshots:
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
+    optional: true
 
   '@csstools/selector-resolve-nested@2.0.0(postcss-selector-parser@6.1.2)':
     dependencies:
@@ -5253,6 +5245,7 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+    optional: true
 
   '@koa/router@12.0.2':
     dependencies:
@@ -6178,13 +6171,17 @@ snapshots:
 
   '@trysound/sax@0.2.0': {}
 
-  '@tsconfig/node10@1.0.11': {}
+  '@tsconfig/node10@1.0.11':
+    optional: true
 
-  '@tsconfig/node12@1.0.11': {}
+  '@tsconfig/node12@1.0.11':
+    optional: true
 
-  '@tsconfig/node14@1.0.3': {}
+  '@tsconfig/node14@1.0.3':
+    optional: true
 
-  '@tsconfig/node16@1.0.4': {}
+  '@tsconfig/node16@1.0.4':
+    optional: true
 
   '@tybys/wasm-util@0.8.3':
     dependencies:
@@ -6488,6 +6485,7 @@ snapshots:
   acorn-walk@8.3.4:
     dependencies:
       acorn: 8.13.0
+    optional: true
 
   acorn@8.12.1: {}
 
@@ -6553,7 +6551,8 @@ snapshots:
       delegates: 1.0.0
       readable-stream: 3.6.2
 
-  arg@4.1.3: {}
+  arg@4.1.3:
+    optional: true
 
   arg@5.0.2: {}
 
@@ -7104,7 +7103,8 @@ snapshots:
 
   didyoumean@1.2.2: {}
 
-  diff@4.0.2: {}
+  diff@4.0.2:
+    optional: true
 
   diff@7.0.0: {}
 
@@ -8016,7 +8016,8 @@ snapshots:
     dependencies:
       semver: 6.3.1
 
-  make-error@1.3.6: {}
+  make-error@1.3.6:
+    optional: true
 
   marky@1.2.5: {}
 
@@ -9475,6 +9476,7 @@ snapshots:
       typescript: 5.6.3
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
+    optional: true
 
   tslib@2.8.0: {}
 
@@ -9496,7 +9498,8 @@ snapshots:
 
   type-level-regexp@0.1.17: {}
 
-  typescript@5.6.3: {}
+  typescript@5.6.3:
+    optional: true
 
   ufo@1.5.4: {}
 
@@ -9675,7 +9678,8 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  v8-compile-cache-lib@3.0.1: {}
+  v8-compile-cache-lib@3.0.1:
+    optional: true
 
   vary@1.1.2: {}
 
@@ -9882,7 +9886,8 @@ snapshots:
 
   ylru@1.4.0: {}
 
-  yn@3.1.1: {}
+  yn@3.1.1:
+    optional: true
 
   yoctocolors@2.1.1: {}
 
