@@ -9,13 +9,19 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/fonts": "^0.10.0",
     "@nuxt/image": "^1.8.1",
     "@nuxt/ui": "^2.18.5",
     "@nuxtjs/seo": "2.0.0-rc.23",
-    "nuxt": "^3.12.4"
+    "@types/node": "^22.7.6",
+    "nuxt": "^3.12.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
   },
   "dependencies": {
     "oslo": "^1.2.1"
