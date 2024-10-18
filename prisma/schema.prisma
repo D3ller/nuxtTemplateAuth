@@ -18,7 +18,7 @@ model User {
   username   String @unique
   email      String @unique
   password   String
-  profilePic String
+  profilePic String @default("https://placehold.jp/150x150.png")
   roles      Role[]
 }
 
