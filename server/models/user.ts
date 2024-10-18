@@ -10,6 +10,17 @@ export async function getUserByEmail(email: string) {
     return await prisma.user.findUnique({
         where: {
             email: email
+        },
+        select: {
+            id: true,
+            email: true,
+            username: true,
+            password: true,
+            roles: {
+                select: {
+                    name: true
+                }
+            }
         }
     });
 }
@@ -18,6 +29,17 @@ export async function getUserById(id: string) {
     return await prisma.user.findUnique({
         where: {
             id: id
+        },
+        select: {
+            id: true,
+            email: true,
+            username: true,
+            password: true,
+            roles: {
+                select: {
+                    name: true
+                }
+            }
         }
     });
 }
