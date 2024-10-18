@@ -9,13 +9,13 @@ const { login } = useAuth();
 let form = reactive({
   username: '',
   password: '',
-  remerber: false
+  remember: false
 })
 
 let connect = async () => {
   try {
 
-    await login(form.email, form.password, form.remember);
+    await login(form.username, form.password, form.remember);
 
   } catch {
 
